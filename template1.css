@@ -1,0 +1,67 @@
+body{
+	background-color: #7f7fb5;
+}
+
+#template1{
+margin-left: 800px;
+}
+#your-name{
+margin-left: -270px;
+
+}
+#mobile-no{
+	margin-top: -756px;
+	margin-left: -40px;
+}
+#email{
+	margin-left: -270px;
+	margin-top: 20px;
+}
+#objective{
+	margin-left: -270;
+	margin-top: -110px;
+	font: bold;
+	font-size: 30px;
+}
+#objective input[type="text"]{
+	  color: black; 
+           
+           height: 120px;
+            width: 300px;
+            border: 1px solid #cccccc;-
+            border-radius: 5px; 
+            font-size: 16px; 
+}
+
+#skills{
+	margin-left: -270;
+	margin-top: 45px;
+	font: bold;
+	font-size: 30px;
+}
+#skills input[type="text"]{
+	  color: black; 
+           
+           height: 120px;
+            width: 300px;
+            border: 1px solid #cccccc;-
+            border-radius: 5px; 
+            font-size: 16px; 
+}
+#education{
+	margin-left: 70px;
+	margin-top: 167px;
+}
+#experience{
+	margin-left: -280px;
+   font-size: 30px;
+}
+#experience input[type="text"]{
+	  color: black; 
+           
+           height: 120px;
+            width: 300px;
+            border: 1px solid #cccccc;-
+            border-radius: 5px; 
+            font-size: 16px; 
+}

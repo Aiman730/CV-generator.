@@ -1,0 +1,67 @@
+.<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>template1</title>
+	<link rel="stylesheet" href="template2.css">
+</head>
+<body>
+ <div id="template1">
+	<div id="your-name">
+		
+		<input type="text" placeholder="Enter Name">
+	</div>
+	
+	<div id="email">
+		
+		<input type="text"placeholder="Enter Your Email">
+	</div>
+	<div id="education">
+	
+		<input type="text"placeholder="Enter Your Education">
+	</div>
+	<div id="objective">
+		<p>Objective</p>
+		<input type="text"placeholder="Objective">
+	</div>
+	<div id="skills">
+		<p>Skills</p>
+			<input type="text" placeholder="Your Skills">
+		</div>
+		<div id="experience">
+		<p>Experience</p>
+			<input type="text" placeholder="Your Experience">
+		</div>
+			<div id="mobile-no">
+	
+		<input type="number"placeholder="Enter Number">
+	</div>
+	</div>
+	  <script>
+  
+    const formData = JSON.parse(localStorage.getItem('CV'));
+
+   
+    if (formData) {
+        
+        document.querySelector('#your-name input').value = formData.firstName;
+        
+        document.querySelector('#email input').value = formData.email;
+          document.querySelector('#education input').value = formData.education;
+        document.querySelector('#objective input').value = formData.objective;
+        document.querySelector('#skills input').value = formData.skills;
+        document.querySelector('#experience input').value = formData.experience;
+        document.querySelector('#mobile-no input').value = formData.mobileNo;
+    } else
+     {
+        console.error('No form data found in localStorage.');
+    }
+</script>
+</body>
+</html>
+	
+	
+	
+
+

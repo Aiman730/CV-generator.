@@ -1,0 +1,33 @@
+body{
+	background-color: #31204a;
+}
+.CV{
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px; 
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #4a2720;  
+}
+#first-name{
+	color: beige;
+}
+
+#email{
+	color: beige;
+}
+#education{
+	color: beige;
+}
+#objective{
+	color: beige;
+}
+#skills{
+	color: beige;
+}
+#experience{
+	color: beige;
+}
+#mobile-no{
+	color: beige;
+}
